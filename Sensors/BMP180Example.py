@@ -7,9 +7,9 @@ Created on Sat Jan  2 11:38:38 2021
 """
 
 
-import BMP085 as BMP085
+import BMP180 as BMP180
 
-sensor = BMP085.BMP085()
+sensor = BMP180.BMP085()
 
 
 print('Temp = {0:0.2f} *C'.format(sensor.read_temperature()))
