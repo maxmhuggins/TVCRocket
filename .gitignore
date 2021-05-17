@@ -1,0 +1,3 @@
+*.spyproject/
+*Sensors/__pycache__/
+*Research/figures/
